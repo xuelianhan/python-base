@@ -9,3 +9,7 @@ _
 /graph/minimum_time_to_collect_apples_in_tree.py,3/5/3587e763c8459e08b04bd142b1c7b796c923c309
 G
 greedy/leetcode_2358.py,7/d/7d2a419efe8cc1f7bd790e17b34de1c057b7b5ea
+A
+stack/__init__.py,5/f/5fd00e4d5d0e32e2af4bd77b7085f2ff913a9f3a
+9
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d

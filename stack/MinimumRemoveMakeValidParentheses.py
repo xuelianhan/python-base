@@ -6,7 +6,7 @@ class MinimumRemoveMakeValidParentheses:
         pass
 
     #Understandind the following solution
-    def minRemoveToMakeValidV1(self, s: str) -> str:
+    def minRemoveToMakeValidV2(self, s: str) -> str:
         if len(s) == 0:
             return ''
         stack = []
@@ -22,6 +22,28 @@ class MinimumRemoveMakeValidParentheses:
         for i in stack:
             s_list[i] = ''
         return ''.join(s_list)
+
+    def minRemoveToMakeValidV1(self, s: str) -> str:
+        if len(s) == 0:
+            return ''
+        res = []
+        left, right = 0, 0
+        s_list = list(s)
+        for c in s_list:
+            if c == ')':
+                right+=1
+        for c in s_list:
+            if c == '(':
+                if left == right:
+                    continue
+                left+=1
+            elif c == ')':
+                right-=1
+                if left == 0:
+                    continue
+                left-=1
+            res.append(c)
+        return ''.join(res)
 
     def minRemoveToMakeValid(self, s: str) -> str:
         if len(s) == 0:

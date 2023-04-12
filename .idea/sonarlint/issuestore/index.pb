@@ -15,5 +15,5 @@ A
 	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 W
 'frequency/leetcode_frequency_202205.txt,e/7/e7ce9d1f860fc56e623d991a0541deea10d438bd
-J
-stack/valid_parentheses.py,9/c/9cf6351fcc070df61794485e150d31ae3114d4e4
+Z
+*stack/MinimumRemoveMakeValidParentheses.py,7/d/7d4b7164f036d7e00080d834a5a20afb7b80fc92

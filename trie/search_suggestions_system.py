@@ -56,6 +56,10 @@ class TrieNode:
         return res
 
 class SearchSuggestionsSystem:
+
+    def __init__(self):
+        pass
+
     def suggestedProducts(self, products: List[str], search_word: str) -> List[List[str]]:
         products.sort()
         root = TrieNode()
@@ -64,4 +68,9 @@ class SearchSuggestionsSystem:
         return [[products[i] for i in idxList] for idxList in root.search(search_word)]
 
 
+instance = SearchSuggestionsSystem()
+products = ["mobile","mouse","moneypot","monitor","mousepad"]
+search_word = "mouse"
+res = instance.suggestedProducts(products, search_word)
+print(res)
 

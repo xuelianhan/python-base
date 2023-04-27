@@ -17,3 +17,7 @@ W
 'frequency/leetcode_frequency_202205.txt,e/7/e7ce9d1f860fc56e623d991a0541deea10d438bd
 R
 "prefixsum/subarray_sum_equals_k.py,d/1/d14d69ce15a2d16c92d8bbaa38a84f27185b0d7d
+J
+stack/valid_parentheses.py,9/c/9cf6351fcc070df61794485e150d31ae3114d4e4
+Q
+!stack/validate_stack_sequences.py,6/3/63fb23054f19ad5a0bfc2b4eda44200144e91746
